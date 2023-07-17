@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +21,10 @@ Route::get('/', function () {
 
 Route::prefix('dashboard')->middleware(['auth','verified'])->group(function (){
  Route::get('/',[DashboardController::class,'index'])->name('dashboard');
+
+//  Creating plroducts
+  //category
+  Route::get('/create-category',[ProductController::class,'create_category'])->name('create_category');   
 });
 
 require __DIR__.'/auth.php';
