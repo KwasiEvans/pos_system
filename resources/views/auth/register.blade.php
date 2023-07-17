@@ -15,6 +15,7 @@
 <h3>Create an Account</h3>
 <h4>Continue where you left off</h4>
 </div>
+@include('notification')
  <form method="POST" action="{{ route('register') }}">@csrf
     <div class="form-login">
         <label>Full Name</label>

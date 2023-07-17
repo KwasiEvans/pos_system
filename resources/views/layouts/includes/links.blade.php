@@ -15,4 +15,9 @@
     <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
     
     <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css">
 </head>

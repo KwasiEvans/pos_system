@@ -15,6 +15,7 @@
 <h3>Sign In</h3>
 <h4>Please login to your account</h4>
 </div>
+@include('notification')
 <form method="POST" action="{{ route('login') }}"> @csrf
     <div class="form-login">
         <label>Email</label>
