@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex, nofollow">
     <title>POS: System</title>
     
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.webp">
     
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     

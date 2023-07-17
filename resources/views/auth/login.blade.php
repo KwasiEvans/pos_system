@@ -9,7 +9,7 @@
 <div class="login-content">
 <div class="login-userset">
 <div class="login-logo">
-<img src="assets/img/logo.png" alt="img">
+<img src="images/logo.webp" alt="img">
 </div>
 <div class="login-userheading">
 <h3>Sign In</h3>
@@ -38,7 +38,7 @@
 <a class="btn btn-login" href="index.html">Sign In</a>
 </div>
 <div class="signinform text-center">
-<h4>Don’t have an account? <a href="signup.html" class="hover-a">Sign Up</a></h4>
+<h4>Don’t have an account? <a href="{{route('register')}}" class="hover-a">Sign Up</a></h4>
 </div>
 <div class="form-setlogin">
 <h4>Or sign up with</h4>
@@ -62,7 +62,7 @@ Sign Up using Facebook
 </div>
 </div>
 <div class="login-img">
-<img src="assets/img/login.jpg" alt="img">
+<img src="images/auth_banner.png" alt="img">
 </div>
 </div>
 </div>
