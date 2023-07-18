@@ -21,10 +21,10 @@
     <h6>Create new product Category</h6>
     </div>
     </div>
-    
+    @include('notification')
     <div class="card">
     <div class="card-body">
-      <form action="">
+      <form action="{{route('store.cart')}}" method="post" enctype="multipart/form-data">@csrf
         <div class="row">
             <div class="col-lg-6 col-sm-6 col-12">
             <div class="form-group">
@@ -57,9 +57,11 @@
             </div>
             </div>
             <div class="col-lg-12">
-            <button type="submit" href="javascript:void(0);" class="btn btn-submit me-2">Save</button>
+            <button type="submit" href="javascript:void(0);" class="btn btn-submit me-2" style="background-color: green;color:white;">
+              Save
+            </button>
             </div>
-            </div>
+          </div>
       </form>
     </div>
     </div>
