@@ -58,8 +58,7 @@
             </div>
             <div class="col-lg-12">
             <button type="submit" href="javascript:void(0);" class="btn btn-submit me-2" style="background-color: green;color:white;">
-              Save
-            </button>
+              Save</button>
             </div>
           </div>
       </form>

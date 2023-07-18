@@ -26,6 +26,7 @@ Route::prefix('dashboard')->middleware(['auth','verified'])->group(function (){
   //category
   Route::get('/create-category',[ProductController::class,'create_category'])->name('create_category');
   Route::post('/store-category',[ProductController::class,'store_cat'])->name('store.cart');   
+  Route::get('/list-category',[ProductController::class,'list_category'])->name('list_cat');
 });
 
 require __DIR__.'/auth.php';

@@ -35,5 +35,11 @@ class ProductController extends Controller
          return back()->with('error',$e->getMessage());
        }
     }
+
+    public function list_category(){
+        $user = Auth::user();
+        $cat = CategoryModel::latest()->get();
+        return view('pages.products.category.list',compact(['user','cat']));
+    }
     
 }
